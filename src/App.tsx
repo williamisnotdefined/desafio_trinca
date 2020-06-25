@@ -1,5 +1,7 @@
 import React from 'react';
 
-const App: React.FC = () => <h1>Hello world</h1>;
+import GlobalProvider from './context';
+
+const App: React.FC = () => <GlobalProvider>Hi</GlobalProvider>;
 
 export default App;
